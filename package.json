@@ -1,11 +1,11 @@
 {
-  "name": "folderr-server",
-  "version": "0.1.0",
+  "name": "@folderr/folderr-mcp-server",
+  "version": "0.0.1",
   "description": "A Model Context Protocol server",
-  "private": true,
+  "private": false,
   "type": "module",
   "bin": {
-    "folderr-server": "./build/index.js"
+    "folderr-server": "build/index.js"
   },
   "files": [
     "build"
@@ -23,5 +23,26 @@
   "devDependencies": {
     "@types/node": "^20.11.24",
     "typescript": "^5.3.3"
-  }
+  },
+  "main": "build/dist.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/folderr-tech/folderr-mcp-server.git"
+  },
+  "keywords": [
+    "Folderr",
+    "MCP",
+    "Server",
+    "mcp",
+    "server",
+    "tool",
+    "automation",
+    "ai"
+  ],
+  "author": "santiq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/folderr-tech/folderr-mcp-server/issues"
+  },
+  "homepage": "https://github.com/folderr-tech/folderr-mcp-server#readme"
 }
