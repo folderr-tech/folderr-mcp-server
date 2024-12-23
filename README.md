@@ -2,6 +2,21 @@
 
 A Model Context Protocol (MCP) server that provides tools to interact with Folderr's API, specifically for managing and communicating with Folderr Assistants.
 
+## Installation
+
+Add to your MCP Settings
+
+```
+{
+  "mcpServers": {
+    "folderr": {
+      "command": "npx",
+      "args": ["-y", "@folderr/folderr-mcp-server"]
+    }
+  }
+}
+```
+
 ## Features
 
 The server provides the following tools:
